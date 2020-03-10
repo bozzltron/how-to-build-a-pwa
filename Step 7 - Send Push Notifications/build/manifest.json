@@ -1,0 +1,14 @@
+{
+  "name": "Fortune Cookie",
+  "short_name": "FC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#D9D9D9",
+  "theme_color": "#F76F72",
+  "description": "A fortune cookie application.",
+  "icons": [{
+    "src": "logo-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
