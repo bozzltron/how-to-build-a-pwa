@@ -10,16 +10,9 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`);
 }
 
-// workbox.precaching.precacheAndRoute([
-//   {url: '/', revision: '5x'}
-// ]);
-workbox.routing.registerRoute(
-  // Homepage cache, this strategy makes sure we are getting new tokens
-  '/',
-  new workbox.strategies.NetworkFirst({
-    cacheName: 'homepage-cache'
-  })
-);
+workbox.precaching.precacheAndRoute([
+  {url: '/', revision: '10'}
+]);
 
 workbox.routing.registerRoute(
   /\.(?:png|gif|jpg|jpeg|webp|svg)$/,
