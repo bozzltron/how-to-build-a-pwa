@@ -1,0 +1,15 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fortune-cookie-test-115808-authRole",
+            "UnauthRoleArn": "arn:aws:iam::346920067321:role/amplify-fortune-cookie-test-115808-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::346920067321:role/amplify-fortune-cookie-test-115808-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-fortune-cookie-test-115808-deployment",
+            "UnauthRoleName": "amplify-fortune-cookie-test-115808-unauthRole",
+            "StackName": "amplify-fortune-cookie-test-115808",
+            "StackId": "arn:aws:cloudformation:us-east-1:346920067321:stack/amplify-fortune-cookie-test-115808/54079e80-62f0-11ea-b3b1-0a3238f55eb3",
+            "AmplifyAppId": "d1olwyx7b0iblo"
+        }
+    }
+}
