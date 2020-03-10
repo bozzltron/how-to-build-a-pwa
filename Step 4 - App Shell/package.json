@@ -1,0 +1,45 @@
+{
+  "name": "how-to-build-a-pwa",
+  "version": "1.0.0",
+  "description": "A walk-through on build a PWA",
+  "main": "index.js",
+  "author": "Michael Bosworth",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0",
+    "web-push": "^3.4.3",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "PORT=8080 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "workbox-build": "^5.0.0"
+  }
+}
